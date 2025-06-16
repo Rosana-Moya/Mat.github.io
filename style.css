@@ -1,0 +1,113 @@
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0; 
+}
+
+html {
+    
+    font-family: cursive;
+}
+
+body {
+    background-color: black;
+}
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    justify-content: flex-start;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+.sticker {
+    background-repeat: no-repeat;
+    width: 50%;
+    height: auto;
+    max-width: 100%;
+    justify-content: flex-end;
+
+}
+
+.containertext {
+    /* display: flex; */
+    padding: 20px;
+     color: crimson;
+     font-size: 25px;
+
+}
+
+.containerimg {
+       display: flex;
+       gap: 5px;
+}
+
+.containerimg img {
+background-repeat: no-repeat;
+    width: 50%;
+    height: auto;
+    max-width: 70%;
+    
+}
+
+.anim {
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+
+.containeramigos {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+ 
+  
+}
+
+.containeramigos img {
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    max-width: 90%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    display: block;
+    
+    
+}
+
+/* img {
+    justify-content: center;
+} */
+.containerfin {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.personas {
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.mejorable {
+    font-size: 15px;
+    color: crimson;
+}
+
